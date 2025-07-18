@@ -1,0 +1,38 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+   flex-flow: row wrap;
+}
+
+div.Bcontainer{
+    height: 100vh;
+    width: 100vh;
+    background-color: blue;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding: 1em;
+    margin-right: 1rem;
+    
+}
+.Bcontainer>h1{
+    font-family: Bebas neue;
+    color: rgb(255, 255, 255);
+}
+p{
+    font-family: poppins;
+    color: white;
+}
+div.Bcontainer{
+    background-image: image("landingPage\dr.jpg");
+    
+}
+
+div.Wcontainer{
+    height: 100vh;
+    width: 100vh;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
